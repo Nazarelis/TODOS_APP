@@ -1,0 +1,83 @@
+.form-container {
+    width: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(212, 215, 214, 0.8); 
+    padding: 100%;
+    z-index: 3;
+    
+}
+form{
+    background-color: white;
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(18, 206, 144);
+    border-radius: 10px;
+
+
+
+}
+label{
+    color: rgb(63, 41, 15);
+    font-size: 2rem;
+    white-space: nowrap;
+    padding-bottom: 5%;
+}
+textarea{
+    width: 80%;
+    padding: 2%;
+    margin: 5%;
+    font-size: 1rem;
+    text-align:justify;
+    resize: none;
+
+}
+
+.buttons-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 1% 5%;
+    width: auto;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.button-form-cancel{
+    color: rgb(18, 206, 144);
+    border-color: rgb(18, 206, 144);
+    background-color: white;
+
+
+
+}
+
+.button-form-add{
+    color: white;
+    background-color: rgb(18, 206, 144);
+
+    
+}
+
+.button-form-add:hover{
+    cursor:pointer ;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(180, 187, 194, 0.5); 
+
+}
+.button-form-cancel:hover{
+    cursor:pointer ;
+    transform: scale(1.1);
+
+}
