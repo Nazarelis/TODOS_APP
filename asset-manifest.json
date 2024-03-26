@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TODOS_APP/static/css/main.c0f3e224.css",
+    "main.js": "/TODOS_APP/static/js/main.e416f8e8.js",
+    "static/media/desk-2325627.jpg": "/TODOS_APP/static/media/desk-2325627.d151d87f1bec41ccbb44.jpg",
+    "index.html": "/TODOS_APP/index.html",
+    "main.c0f3e224.css.map": "/TODOS_APP/static/css/main.c0f3e224.css.map",
+    "main.e416f8e8.js.map": "/TODOS_APP/static/js/main.e416f8e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0f3e224.css",
+    "static/js/main.e416f8e8.js"
+  ]
+}
